@@ -38,3 +38,11 @@ if a > 0:
   print("Pole trapezu wynosi: ", pole)
 else:
   print("błędna dana")
+
+#Podzielnośc liczb
+a = int(input("Wprowadź wartość dzielnej a: "))
+b = int(input("Wprowadź wartość dzielnika b: "))
+if a % b==0:
+  print("a jest podzielnej przez b")
+else:
+  print("a nie jest podzielne przez b")
