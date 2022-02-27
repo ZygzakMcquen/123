@@ -15,7 +15,7 @@ if b!= 0:
 else:
   print("Nie dzielimy przez zero")
   
-  #Średnia dwóch liczb
+#Średnia dwóch liczb
 a = float(input("Podaj pierwszą liczbę: "))
 b = float(input("Podaj drugą liczbę "))
 srednia = (a+b)/3
@@ -31,7 +31,7 @@ if h > 0 and b > 0 and a > 0:
 else:
   print("błędna dana")
   
-  #Pole kwadratu
+#Pole kwadratu
   a = float(input("Podaj długośc boku: "))
 if a > 0:
   pole = (a**2)
